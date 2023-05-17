@@ -1,0 +1,133 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+    /*========== Colors ==========*/
+
+    /* HSL color mode */
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+}
+
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+    :root {
+        --big-font-size: 3rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+/*==================== BASE ====================*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: var(--body-font);
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 0 var(--header-height) 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+/*==================== LAYOUT ====================*/
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2rem 9%;
+  z-index: var(--z-fixed);
+  background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: default;
+}
+/*==================== NAV ====================*/
+
+/* show menu */
+
+/*==================== HOME ====================*/
+
+
+/*==================== BUTTONS ====================*/
+
+
+/*==================== ABOUT ====================*/
+
+
+/*==================== SKILLS ====================*/
+
+
+/*==================== QUALIFICATION // EXPERIENCE ====================*/
+
+
+/*==================== SERVICES ====================*/
+
+
+/*==================== CONTACT ME ====================*/
+
+
+/*==================== FOOTER ====================*/
+
+
+/*========== SCROLL UP ==========*/
+
+
+/*========== SCROLL BAR ==========*/
+
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
