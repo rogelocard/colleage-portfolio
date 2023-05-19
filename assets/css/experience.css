@@ -31,15 +31,95 @@
     --font-semi-bold: 600;
 }
 
+
+
 /*==================== BASE ====================*/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0 0 var(--header-height) 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none;
-    font-family: var(--body-font);
-    scroll-behavior: smooth;
-    transition: all 0.2s ease;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 0 var(--header-height) 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: var(--body-font);
+  scroll-behavior: smooth;
+  transition: all 0.2s ease;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+
+body{
+  background-color: bisque;
+  height: 100vh;;
+  width: 100%;
+  display: flex;
+  /*align-items: center;*/
+  background-image: linear-gradient(135deg, var(--second-bg-color) 10%, var(--bg-color) 100%);
+  overflow: hidden;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body::before,
+body::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /*opacity: 0.4;*/
+}
+body::before{
+  clip-path: circle(30% at left 20%);
+  opacity: 0.6;
+  background-image: linear-gradient(135deg, var(--bg-color) 10%, var(--second-bg-color) 100%);
+}
+body::after{
+  opacity: 0.7;
+  clip-path: circle(25% at right 80%);
+  background: linear-gradient(135deg, var(--bg-color) 10%, var(--second-bg-color) 100%);
+}
+
+/*==================== Experiencia ====================*/
+
+.experience1 {
+    background-color: #1de2d1;
+}
+.experience1 h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.experience1 h3{
+    font-size: 16px;
+}
+.experience1 li{
+    font-size:14px;
+}
+.experience2{
+    background-color: aliceblue;
+}
+.experience2 h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.experience2 h3{
+    font-size: 16px;
+}
+.experience2 li{
+    font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
